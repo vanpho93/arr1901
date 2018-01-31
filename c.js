@@ -24,3 +24,5 @@ const date = new Date();
 
 console.log(date.toLocaleTimeString('en-GB'));
 console.log(Date.now());
+const { name, age } = teo;
+console.log(name, age);
