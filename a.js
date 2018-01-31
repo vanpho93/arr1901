@@ -9,3 +9,6 @@ people.forEach((person, index) => {
     // console.log(index + 1 + ':' + person.name + ': ' + person.age);
     console.log(`${index + 1}: ${person.name}: ${person.age}`);
 });
+
+console.log(people.every(person => person.age > 15));
+console.log(people.some(person => person.age > 15));
